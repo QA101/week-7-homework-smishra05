@@ -27,7 +27,7 @@ public class GreetingsUtilTest {
 
 	@Test
 	public void test() {
-		System.out.println();
+		fail("no test");
 	}
 
 }
