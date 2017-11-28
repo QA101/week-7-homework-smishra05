@@ -1,28 +1,38 @@
 package greetingsUtil;
 
+/*
+ * Simple util class meant to track if you are currently coming or going
+ */
 public class GreetingsUtil {
 
-	 String currentState = "hi";
+	String currentState = "coming";
 	
-	public static String HelloWorld(String input) {
-		if(input.equals("Hello")) {
-			return "World";
+	public void ChangeState() {
+		if(currentState.equals("coming")){
+			currentState = "going";
 		}
 		else {
-			return "I don't understand";
+			currentState = "coming";
 		}
 	}
 	
-	public void UpdateState() {
-		if(currentState.equals("hi")){
-			currentState = "bye";
+	public String Hello() {
+		if(currentState.equals("coming")) {
+			return "You already said that";
 		}
 		else {
-			currentState = "hi";
+			currentState = "coming";
+			return "Hi!";
 		}
 	}
 	
-	public void SayGoodBye() {
-		currentState = "bye";
+	public String GoodBye() {
+		if(currentState.equals("going")) {
+			return "You already said that";
+		}
+		else {
+			currentState = "going";
+			return "bye";
+		}
 	}
 }

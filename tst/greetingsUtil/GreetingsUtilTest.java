@@ -5,9 +5,12 @@ import static org.junit.Assert.*;
 import org.junit.*;
 
 public class GreetingsUtilTest {
-
+	static GreetingsUtil gu;
+	
+	
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
+		gu = new GreetingsUtil();
 	}
 
 
@@ -27,7 +30,7 @@ public class GreetingsUtilTest {
 
 	@Test
 	public void test() {
-		fail("no test");
+		fail("your tests here");
 	}
 
 }
