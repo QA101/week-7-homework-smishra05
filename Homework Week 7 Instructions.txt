@@ -1,7 +1,12 @@
 1. Reading
 
-2. Video
+http://www.techbeamers.com/software-automation-testing-interview-questions/
+https://www.guru99.com/automation-testing-interview-questions.html
+http://www.softwaretestingstudio.com/write-java-program-selenium-interview/
+https://examples.javacodegeeks.com/enterprise-java/selenium/selenium-interview-questions-answers/
 
+
+2. Video
 None
 
 3. Coding in “SRC” folder
@@ -12,7 +17,9 @@ Write test cases in GreetingUtilTest.java
 * Challenge: how can you do integration testing of methods?
 
 4. Coding problems:
-
+Problems in Self-Coding folders
+Most of the people did not submit their homework #6
+This is your last chance to make it up
 
 	
 

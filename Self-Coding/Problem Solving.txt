@@ -1,0 +1,17 @@
+1. Given a list of numbers, find the longest subsequence of consecutive positive integers.  
+	E.g. given [1,5,1,-1,1] return [1,5,1].  
+	Given [1,5,1,-1,1,1,1,1] return [1,1,1,1]
+
+2. Write a function to check if the given STRING is a palindrome or not.
+	A palindrome is a word, phrase, number, or other sequence of characters which 	
+	reads the same backward as forward
+	e.g. “civic” is a palindrome, “toyota” is not 
+
+3. Write a function that checks whether an INTEGER ARRAY is a palindrome or not.
+
+4. Find duplicate characters in a String and count the number of occurrences of the duplicate characters
+
+5. Remove duplicate characters in a string: Given a string "banana", return unique string "ban"
+
+6. Given two strings "parachute" and "raphtueac", determine if 2 strings are anagrams of each other (both the strings have same set of characters)
+
